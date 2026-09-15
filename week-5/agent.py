@@ -86,8 +86,10 @@ agent = create_agent(
     tools=tools
 )
 
-user_query = """
-    For India, tell me:
+input = input("Enter country name: ")
+
+user_query = f"""
+    For {input}, tell me:
     1. What is its capital?
     2. What is its currency?
     3. What is the current value of its currency compared with USD?
@@ -103,9 +105,3 @@ result = agent.invoke({
 })
 
 print(result["messages"][-1].content)
-
-for i, message in enumerate(result["messages"]):
-    print("=" * 80)
-    print(f"MESSAGE {i}")
-    print("TYPE:", type(message).__name__)
-    print(message)
