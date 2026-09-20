@@ -1,0 +1,18 @@
+An [over-the-air update (OTA update)] is the wireless delivery of new software, firmware, or configuration data to a device via Wi-Fi or cellular networks. [1, 2] 
+## How OTA Updates Work
+
+* Wireless Delivery: Files download directly to the device over the internet, avoiding physical cables or manual tools.
+* Verification: Systems check the digital signature of the package to confirm safety before installation.
+* Installation: The device applies the update to refresh the system or fix errors. [3, 4, 5, 6, 7] 
+
+## Common Uses
+
+* Smartphones and Tablets: Upgrading operating systems, security patches, and system apps.
+* Vehicles (FOTA): Enhancing car computer systems and dashboard software remotely.
+* Smart Home & IoT: Updating connected devices like smart locks, thermostats, and industrial sensors. [1, 2, 7, 8, 9] 
+
+## Main Benefits
+
+* Convenience: No physical plug-in or service visit is required.
+* Security: Quick patches protect against newly found threats.
+* Longevity: New features extend the working life of hardware. [7] 
