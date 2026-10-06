@@ -9,12 +9,9 @@ from langchain_mcp_adapters.client import MultiServerMCPClient
 
 load_dotenv()
 
-FILESYSTEM_PATH = (
-    "/Users/karanparihar/Documents/Devs/AI-Learning/"
-    "ai-engineering-learning/week-6/filesystem_demo"
-)
+FILESYSTEM_PATH = ("/Users/varshid-innvonix/Documents/Karan/AI-Engineer/ai-engineer-learning/practical/week-6")
 
-
+# /Users/varshid-innvonix/Documents/Karan/AI-Engineer/ai-engineer-learning/practical
 async def main():
 
     # 1. Configure the MCP server
